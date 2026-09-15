@@ -1,4 +1,4 @@
-# tsunagi-packs
+# 通譯-Tsunagi 輸入法擴充包
 
 [通譯輸入法](https://github.com/Zosuya/Tsunagi-IME)的擴充包。
 
