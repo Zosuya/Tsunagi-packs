@@ -1,0 +1,8 @@
+# 包是純文字資料，兩個平台都要讀——換行釘成 LF，不然跨平台的 diff
+# 會整片變紅。主 repo 對 en_50k.txt 也是同一條規則。
+*.txt text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+
+# hook 要在 Git Bash 裡執行，CRLF 會讓 shebang 失效
+.githooks/* text eol=lf
